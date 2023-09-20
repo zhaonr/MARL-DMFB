@@ -28,7 +28,7 @@ class Runner:
 
     def run(self, num):
         # 进行n_step次训练，其中每evaluation cycle个step进行一次评估；每运行n_episode把数据保存下来训练网络，更新 train_steps次参数
-
+        print(123)
         time_steps, train_steps, evaluate_steps = 0, 0, -1
         # n_step 每一次完整实验的总steps.\
         zqq_count = 0
